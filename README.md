@@ -27,3 +27,10 @@ This project explores the behavior of electromagnetic fields in rectangular wave
 - Satellite communications  
 - Radar and sensing systems  
 - Medical imaging and high-frequency signal transmission
+- 
+## Author
+**[Semalign Markos]** – Aspiring Electronic Communication Engineer  
+GitHub: [your-github-link]  
+
+## License
+This project is licensed under the MIT License.
