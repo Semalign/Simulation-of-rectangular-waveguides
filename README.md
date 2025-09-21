@@ -1,23 +1,29 @@
-Rectangular Waveguide Field Analysis
+# Rectangular Waveguide Field Analysis
 
-This project investigates electromagnetic field behavior in rectangular waveguides, a key component in microwave and RF engineering. Using ANSYS HFSS, it visualizes transverse electric (TE) and transverse magnetic (TM) modes, analyzing electric and magnetic field distributions across XY, XZ, and YZ planes. The study also examines surface current density along waveguide walls, providing insights into wave-structure interactions. The results help optimize waveguide design, dimensions, and operating frequencies for efficient, distortion-free signal transmission in applications such as satellite communications, radar, and advanced sensing systems.
+## Overview
+This project explores the behavior of electromagnetic fields in rectangular waveguides, which are essential components in microwave and RF engineering. Using ANSYS HFSS, the study visualizes transverse electric (TE) and transverse magnetic (TM) modes, analyzing how electric and magnetic fields distribute across XY, XZ, and YZ planes. Surface current density along the waveguide walls is also examined to understand wave-structure interactions. These insights enable optimized waveguide design, efficient energy transmission, and high-performance signal propagation in applications such as satellite communications, radar systems, and advanced sensing technologies.
 
-Objective:
+## Objective
+- Analyze TEmn and TMmn modes in rectangular waveguides.
+- Visualize field patterns across multiple planes and frequency bands.
+- Examine surface current density to assess energy propagation and waveguide performance.
 
-Analyze TEmn and TMmn modes within a rectangular waveguide.
+## Simulation Procedure
+1. **Define Simulation Frequency Band:** Set up a frequency sweep (e.g., 8–12 GHz) during the analysis setup in ANSYS HFSS.
+2. **Set Excitation and Modes:** Define the input port excitation; the dominant TE10 mode is typically excited by default. Adjust port setup for advanced mode control if required.
+3. **Select Field Type:** Post-simulation, choose the field to visualize:
+   - Electric Field  
+   - Magnetic Field  
+   - Surface Current Density
+4. **Mode Indices (m, n):** Ensure proper mode excitation by setting waveguide dimensions and operating frequencies above the cutoff frequency.
+5. **Visualize Field Patterns:** Use ANSYS HFSS post-processing tools to display field distributions across XY, XZ, and YZ planes.
 
-Visualize field patterns across different planes and frequency bands.
+## Tools & Technologies
+- **Simulation Software:** ANSYS HFSS  
+- **Domain:** Microwave and RF Engineering  
+- **Key Concepts:** TE/TM Modes, Surface Current Density, Waveguide Design Optimization
 
-Study surface current density to understand energy propagation and waveguide performance.
-
-Simulation Procedure Highlights:
-
-Define frequency sweep (e.g., 8–12 GHz) in ANSYS HFSS.
-
-Set waveguide excitation and modes (dominant TE10 by default).
-
-Select field type: electric, magnetic, or surface current.
-
-Ensure proper mode excitation via waveguide dimensions and operating frequency.
-
-Visualize field patterns across XY, XZ, and YZ planes.
+## Applications
+- Satellite communications  
+- Radar and sensing systems  
+- Medical imaging and high-frequency signal transmission
