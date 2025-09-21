@@ -29,8 +29,8 @@ This project explores the behavior of electromagnetic fields in rectangular wave
 - Medical imaging and high-frequency signal transmission
 - 
 ## Author
-**[Semalign Markos]** – Aspiring Electronic Communication Engineer  
-GitHub: [your-github-link]  
+**Semalign Markos** – Aspiring Electronic Communication Engineer  
+GitHub:https://github.com/Semalign  
 
 ## License
 This project is licensed under the MIT License.
